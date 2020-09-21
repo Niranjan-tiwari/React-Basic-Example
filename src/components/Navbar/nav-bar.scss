@@ -1,0 +1,22 @@
+.nav-bar{
+    display: flex;
+    height: 71px;
+    background: #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    .nav-link{
+        display: flex;
+        width: 180px;
+        color: #b0b0b0;
+        font-weight: bold;
+        font-size: 22px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .active{
+        background: #212121;
+        color: #838383;
+    }
+}
+ //#080808
